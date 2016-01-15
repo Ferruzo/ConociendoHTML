@@ -1,0 +1,12 @@
+body {
+	font-family: Arial;
+}
+
+div {
+	height: 240px;
+	width: 250px;
+	background-color: white;
+	border: 3px solid #E79211;
+	margin: 5px;
+	padding: 15px;
+}
