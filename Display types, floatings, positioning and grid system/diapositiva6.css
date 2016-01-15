@@ -1,0 +1,37 @@
+body {
+	font-family: Tahoma;
+	font-size: 20px;
+}
+
+.amarillo1 {
+	height: 15px;
+	width: 90px;
+	background-color: yellow;
+	display: block;
+	padding: 10px;
+	display: inline-block;
+	margin: 5px;
+}
+
+.rojo {
+	height: 15px;
+	width: 20px;
+	background-color: #E70D43;
+	padding: 10px;
+	display: inline-block;
+	margin: 5px;
+}
+
+.amarillo2 {
+	height: 15px;
+	width: 165px;
+	background-color: yellow;
+	display: block;
+	padding: 10px;
+	display: inline-block;
+	margin: 5px;
+}
+
+p {
+	margin: -5px;
+}

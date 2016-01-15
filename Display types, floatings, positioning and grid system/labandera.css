@@ -1,0 +1,22 @@
+body {
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.amarillo {
+	height: 100px;
+	width: 700px;
+	background-color: yellow;
+	display: block;
+	padding: 10px;
+	display: block;
+}
+
+.rojo {
+	height: 100px;
+	width: 700px;
+	background-color: #E70D43;
+	border: 1px solid black;
+	padding: 10px;
+	display: block;
+}
