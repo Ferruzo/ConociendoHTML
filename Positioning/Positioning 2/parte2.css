@@ -1,0 +1,27 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.container {
+	background-color: blue;
+	height: 300px;
+	width: 300px;
+	position: relative;
+}
+
+div.box {
+	background-color: #387804;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 75px;
+	left: 75px;
+}
+
+div.tinybox {
+	background-color: black;
+	height: 76px;
+	width: 76px;
+	position: absolute;
+}

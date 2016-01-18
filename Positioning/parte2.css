@@ -1,0 +1,21 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+div.red {
+	background-color: #EE3E64;
+	left: 300px;
+}
+
+div.blue {
+	background-color: #44ACCF;
+}
+
+div.green {
+	background-color: #B7D84B;
+	right: 50px;
+}
