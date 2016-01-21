@@ -47,9 +47,14 @@ nav a:hover {
 	color: #FFF;
 }
 
+.col-12 {
+	text-align: center;
+}
+
 section {
 	background-color: #EEEEEE;
-	border-bottom: 
+	border-bottom: 2px solid #BBBBBB;
+	padding: 20px;
 }
 
 h2 {
@@ -65,7 +70,7 @@ div p .link1 {
 	font-weight: bold;
 	float: left;
 	position: absolute;
-	top: 292px;
+	top: 160px;
 }
 
 .imgsection {
@@ -80,27 +85,51 @@ div p .link1 {
 	color: #336699;
 	font-weight: bold;
 	position: relative;
-
 }
 
-.col-3 {
-	border-bottom: 1px solid #BBBBBB;
-	padding-bottom: 20px;
-	text-align: center;
+article {
+	padding: 30px 15px;
+	margin: 0;
 }
 
-.col-2 {
-	margin: 50px;
-	text-align: center;
+.col-2article {
+	margin-right: -60px;
+	margin-left: 10px;
+	margin-bottom: 20px;
 }
 
 .imgarticle {
-	height: 100px;
-	width: 100px;
+	width: 130px;
+	height: 130px;
+	border: 4px double #CCCCCC;
 }
 
 .link3 {
 	text-decoration: none;
-	color: #3B6C9D;
+	color: #3F6F9F;
 	font-size: 12px;
+}
+
+.cajaaside1 {
+	border-top: 2px solid #DDDDDD;
+	padding: 10px;
+}
+
+.cajaicons {
+	float: left;
+	height: 45px;
+	width: 15px;
+}
+
+.icons {
+	height: 15px;
+	width: 15px;
+	float: left;
+
+}
+
+.link4 {
+	text-decoration: none;
+	color: #396A9C;
+	font-size: 14px;
 }
