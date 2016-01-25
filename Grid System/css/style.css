@@ -1,5 +1,5 @@
 body {
-	font-family: 'Roboto';
+	font-family: Roboto;
 }
 
 header {
@@ -21,6 +21,7 @@ nav ul {
 	margin: 0 -15px 0 0;
 	float: right;
 	font-size: 14px;
+	line-height: 14px;
 	text-transform: uppercase;
 	white-space: nowrap;
 }
@@ -32,13 +33,16 @@ nav li {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 nav li:hover a {
- 	background: #585858;
+	background: #585858;
 }
 
 nav a {
-	text-decoration: none;
-	padding: 10px 15px;
+	padding: 10px 15px; 
 	color: #EEE;
 	text-shadow: 2px 2px 4px #000;
 }
@@ -47,91 +51,208 @@ nav a:hover {
 	color: #FFF;
 }
 
-.col-12 {
-	text-align: center;
-}
-
 section {
 	background-color: #EEEEEE;
-	border-bottom: 2px solid #BBBBBB;
-	padding: 20px;
+	padding: 20px 0 40px 0;
+	border-bottom: 2px solid #DDDDDD;
 }
 
-h2 {
-	font-size: 20px;
-	padding: 20px;
-	float: left;
-}
-
-div p .link1 {
-	text-decoration: none;
-	color: #336699;
-	font-size: 13px;
+.more_episodes {
+	color: #4C7AAA;
 	font-weight: bold;
-	float: left;
-	position: absolute;
-	top: 160px;
+	font-size: 14px;
+	margin-left: 10px;
 }
 
-.imgsection {
-	height: 220px;
-	width: 220px;
+.inline-block {
+	text-align: center;
+	display: inline-block;
 	position: relative;
-	border: 3px solid white;
-	outline: 2px solid #CCCCCC;
+	top: 10px;
 }
 
-.link2 {
-	text-decoration: none;
-	color: #336699;
+.img_border {
+	outline: 2px solid #CCCCCC;
+	border: 2px solid white;
+}
+
+.img_section {
+	height: 210px;
+	width: 210px;
+	position: relative;
+}
+
+.a_section {
+	color: #3973A9;
 	font-weight: bold;
+	font-size: 15px;
 	position: relative;
 }
 
 article {
-	padding: 30px 15px;
-	margin: 0;
+	position: relative;
+	padding-top: 20px;
 }
 
-.col-2article {
-	margin-right: -60px;
-	margin-left: 10px;
-	margin-bottom: 20px;
+.img_article {
+	height: 100px;
+	width: 100px;
+	position: relative;
 }
 
-.imgarticle {
-	width: 130px;
-	height: 130px;
-	border: 3px solid white;
-	outline: 2px solid #CCCCCC;
-}
-
-.link3 {
-	text-decoration: none;
-	color: #3F6F9F;
+.a_article {
+	color: #6080A7;
 	font-size: 12px;
 }
 
-.cajaaside1 {
-	border-top: 2px solid #DDDDDD;
-	padding: 10px;
+.texto_derecha {
+	position: relative;
+	right: -700px;
+	top: -120px;
+	width: 200px;
 }
 
-.cajaicons {
-	float: left;
-	height: 45px;
-	width: 15px;
+h4 {
+	color: #666575;
+	text-align: left;
+	position: relative;
+	left: 25px;
 }
+
+hr {
+	width: 210px;
+	position: relative;
+	left: 20px;
+	background: #E8E8E8;
+	height: 2px;
+	border: none;
+}
+
+.caja_icons {
+ 	margin: 15px 10px 0 17px;
+ 	height: 100px;
+ 	width: 20px;
+ }
 
 .icons {
-	height: 15px;
-	width: 15px;
-	float: left;
-
+	height: 12px;
+	width: 12px;
+	margin-bottom: 7px;
 }
 
-.link4 {
-	text-decoration: none;
-	color: #396A9C;
+.caja_links{
+ 	height: 100px;
+ 	width: 150px;
+ 	position: relative;
+ 	top: -102px;
+ 	left: 25px;
+ 	text-align: left;
+}
+
+ .a_icons {
+ 	color: #6080A7;
+ 	font-size: 14px;
+ }
+
+ .p_link {
+ 	margin-bottom: 5px;
+ 	font-size: 14px;
+ 	text-align: left;
+ 	position: relative;
+ 	left: 20px;
+ }
+
+.row2 {
+	position: relative;
+	top: -220px;
+}
+
+.row3 {
+	position: relative;
+	top: -450px;
+}
+
+.caja_links2{
+	margin: 90px 0 0 0;
+ 	height: 100px;
+ 	width: 200px;
+ 	position: relative;
+ 	top: -120px;
+ 	left: 0;
+}
+
+.lasthr {
+	position: relative;
+	top: -50px;
+}
+
+.img_margin {
+	margin-right: 41px;
+}
+
+.row4 {
+	position: relative;
+	top: -630px;
+}
+
+.row5 {
+	position: relative;
+	top: -620px;
+}
+
+.row6 {
+	position: relative;
+	top: -610px;
+}
+
+.img_margin2 {
+	margin-right: 35px;
+}
+
+footer {
+	background-color: #585858;
+	padding: 40px;
+}
+
+.p_footer1 {
+	color: #D7D8DA;
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+
+.a_footer1 {
+	color: #ACA9A9;
+	font-size: 15px;
+}
+
+.ul_footer {
+	list-style-type: none;
+	padding-top: 10px;
+	margin: 0 -15px 0 150px;
 	font-size: 14px;
+	line-height: 14px;
+	white-space: nowrap;
+}
+
+.ul_footer li {
+	position: relative;
+	float: left;
+	padding: 0;
+}
+
+.a_footer2 {
+	margin-left: 20px;
+	color: #C8C8C1;
+	font-size: 12px;
+}
+
+
+.p_footer2 {
+	color: #9F9E9E;
+	font-size: 10px; 
+	font-weight: bold;
+	position: relative;
+	top: 40px;
+	left: -400px;
+	margin-bottom: 20px;
 }
