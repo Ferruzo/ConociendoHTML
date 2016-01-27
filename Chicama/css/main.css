@@ -1,0 +1,26 @@
+body {
+	font-family: Roboto;
+}
+
+#banner {
+	width: 100%;
+	height: 640px;
+	background-image: url("../img/grupal.jpg");
+	background-size: 100%;
+}
+
+.sumate_button {
+	background-color: #FCB739;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+	top: 60px;
+	left: 175px;
+}
+
+.logo {
+	height: 50px;
+	width: 300px;
+}
