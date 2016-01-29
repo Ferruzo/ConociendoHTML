@@ -1,0 +1,96 @@
+body {
+	font-family: Oswald;
+	text-align: center;
+}
+
+nav {
+	padding: 100px 0 20px 0px;
+	border-bottom: 1px solid black;
+}
+
+li {
+	display: inline-block;
+	margin-right: 50px;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	height: 450px;
+	background-image: url("../images/background.jpg");
+	padding-top: 120px;
+	color: white;
+}
+
+.name_box {
+	font-size: 20px;
+	margin: 40px 0;
+}
+
+.tagline {
+	font-weight: normal;
+	font-family: Arial;
+}
+
+#section1 {
+	background-image: url("../images/tile1.png");
+	height: 450px;
+	padding: 50px;
+}
+
+.headings {
+	font-size: 30px;
+	color: #A8258D;
+}
+
+.profile_info {
+	margin: 30px 0;
+}
+
+.profile_pic {
+	height: 220px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.profile_text {
+	text-align: left;
+	font-family: Arial;
+	line-height: 22px;
+}
+
+#section2 {
+	padding: 50px;
+}
+
+.subheading {
+	color: #A8258D;
+	margin: 30px 0;
+}
+
+.fav_things_pics {
+	height: 200px;
+	border-radius: 500px;
+	border: 2px solid #A8258D;
+	padding: 5px;
+}
+
+footer {
+	background-image: url("../images/tile2.png");
+	height: 350px;
+	padding: 75px 0;	
+}
+
+.social_ntw_box{
+	margin-right: -250px;
+	margin-left: 130px;
+}
+
+.social_ntw {
+	margin: 30px 0;
+}
+
