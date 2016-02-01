@@ -1,0 +1,44 @@
+body {
+	font-family: Open Sans;
+}
+
+nav {
+	padding: 5px;
+	height: 100px;
+}
+
+#logo {
+	height: 90px;
+	width: 90px;
+	margin-left: 70px;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	margin-right: 180px;
+}
+
+li {
+	float: left;
+	margin: 40px 20px 0 0px;
+	border-right: 1px solid #9A9A9A;
+	padding-right: 20px;
+}
+
+li:last-child {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	color: #9A9A9A;
+}
+
+header {
+	background-image: url("../img/semilla.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0;
+	height: 350px;
+}

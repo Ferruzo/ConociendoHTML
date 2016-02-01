@@ -36,7 +36,46 @@ a {
 
 section {
 	background-color: #EAEAE9;
-	height: 500px;
-	padding: 50px;
+	height: 1150px;
+	padding: 80px;
 }
 
+.section_boxes {
+	background-color: white;
+	height: 500px;
+	padding: 15px;
+	text-align: center;
+	margin: 0 0 30px 50px;
+}
+
+
+h2 {
+	color: #868683;
+	text-align: left;
+	margin: 5px 0px;
+}
+
+.p_boxes {
+	color: #C0C0C6;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.leemas_button {
+	background-color: #FCBA43;
+	color: white;
+	width: 100px;
+	padding: 5px;
+	margin: auto;
+}
+
+footer {
+	background-color: #262624;
+	padding: 20px 50px 40px; 
+	color: white;
+	font-size: 14px;
+}
+
+.skype_num {
+	color: #00aff0;
+}
