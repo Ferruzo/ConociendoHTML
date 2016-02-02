@@ -1,0 +1,64 @@
+body {
+	font-family: Montserrat;
+}
+
+header {
+	padding: 50px;
+	text-align: center;
+	color: #192951;
+}
+
+ul {
+	list-style-type: none;
+	float: right;
+	margin: 30px 90px 0 0;
+}
+
+li {
+	float: left;
+	margin-right: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: #808083;
+}
+
+/*Aquí termina el header*/
+
+#main_img {
+	background-image: url("../img/dance_1.jpg");
+	padding: 50px 100px;
+	color: #C3C6C5;
+	height: 480px;
+}
+
+.studio_heading {
+	font-size: 80px;
+}
+
+.main_text {
+	width: 240px;
+	line-height: 25px;
+	margin: 20px 0;
+}
+
+.inscribete_button {
+	background-color: #040D1C;
+	padding: 15px;
+	width: 150px;
+	text-align: center;
+	color: #C3C6C5;
+}
+
+.inscribete_button:hover {
+	background-color: white;
+	color: #192951;
+}
+
+/*Aquí, termina la imagen principal con el botón para inscribirse*/
+
+#main_description {
+	padding: 50px;
+	text-align: center;
+}
